@@ -98,13 +98,11 @@ xz_result = np.vander((1, 2, 3, 4), 4)
 """
 xt_result = default_rng(42).random((2, 3))
 yt_result = default_rng(42).random((2, 3, 2))
-print(xt_result)
-print(yt_result)
 
 """
 [
-[0.77395605 0.43887844 0.85859792]
-[0.69736803 0.09417735 0.97562235]
+    [0.77395605 0.43887844 0.85859792]
+    [0.69736803 0.09417735 0.97562235]
 ] 
         [
     [
@@ -118,4 +116,3 @@ print(yt_result)
     ]
         ]
 """
-
